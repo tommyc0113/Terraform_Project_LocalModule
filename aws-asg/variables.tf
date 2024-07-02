@@ -32,3 +32,9 @@ variable "HTTP_HTTPS_SG_ID" {
   description = "HTTP_HTTPS_SG_ID"
   type        = string
 }
+
+# 원하는 용량지정
+variable "desired_size" {
+  description = "ASG Desired_Capacity"
+  type        = string
+}
